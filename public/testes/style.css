@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffffff;
+}
+.cabecalho{
+    background-color:#093484;
+    width: 97.9%;
+    height: 130px;
+    padding: 20px;
+}
+.logo{
+    width: 150px;
+}
+.elements{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    margin-top: 45px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+   
+    height: 50px;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 5px 2px 2px black;
+    margin-left: 34px;
+    width: 300px;
+}
+.perfil{
+    text-decoration: none;
+}
+.elements img{
+    width: 40px;
+    margin-top: 2px;
+}
+.elements h2{
+    margin-top: 5px;
+}
+.banner{
+    display: flex;
+    gap: 650px;
+    text-decoration: none;
+}
+.carrinho{
+    width: 40px
+}
+.compraELogin{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 45px;
+}
+.compraELogin img{
+    margin-top: 5px;
+    border-right: #093484 solid 5px;
+    padding-right: 20px;
+}
+.compraELogin h3{
+    padding-left: 20px;
+}
+.selecao{
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-left: 786px;
+    margin-top: 30px;
+    background-color: white;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    border: 1px solid black;
+}
+.selecao :hover{
+color: white;
+background-color: black;
+}
+
+.container{
+    background-color: #093484;
+    color: white;
+}
+.container h2{
+    color: white;
+}
+.titulo{
+    color: white;
+    margin-right: 30px;
+}

@@ -1,0 +1,45 @@
+.card-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-bottom: 200px;
+    
+}
+
+.card {
+    border: 1px solid #ccc;
+    background-color: #282829;
+    border-radius: 8px;
+    padding: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 900px;
+    height: auto;
+    margin: 0 auto 40px auto; 
+    color: white;
+}
+
+
+.descricao {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 100%; 
+        margin: 10px; 
+        padding: 20px; 
+    }
+
+    .card-container {
+        margin-left: 0; 
+        padding: 10px; 
+    }
+
+    .descricao {
+        margin-left: 0; 
+    }
+}

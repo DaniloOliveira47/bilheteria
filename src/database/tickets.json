@@ -1,0 +1,22 @@
+{
+  "tickets": [
+    {
+      "id": 1,
+      "nome": "Plantão festival",
+      "descricao": "Festival sdkhflsdhdfoshflsdfgsifhsidfghsaddfhgsaoghsadgfoashdgosahgoafihgiodfhgsoughf dovhdghdfouigbo foighoaighafoidgb gihdaoguhad",
+      "local": "cotia-SP",
+      "valor": "300",
+      "data": "2024-10-11",
+      "tipo": "Exposições"
+    },
+    {
+     "id": 2,
+     "nome": "Plantão festival",
+     "descricao": "SJDGBIJDFGJDGJSLKDGLDHFGDFJGJKDFLGJSDGKSLDGJSKLFGLKJSLGJLKSJG",
+     "local": "cotia-SP",
+     "valor": "30",
+     "data": "2024-10-9",
+     "tipo": "Exposições"
+   }
+  ]
+}

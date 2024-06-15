@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="cabecalho">
+    <div class="banner">
+      <img class="logo" src="partials/img/Black_and_Blue_Rocket_Company_Logo-removebg-preview (1).png" alt="">
+      <h1 class="titulo">Venda seu Ingresso</h1>
+    </div>
+  </header>
+  <div class="container">
+    <h2>Cadastro</h2>
+    <form class="formu" id="eventoForm" action="#" method="POST">
+      <div class="form-group">
+        <label for="nome">Nome do evento:</label>
+        <input type="text" id="nome" name="nome" required>
+      </div>
+      <div class="form-group">
+        <label for="descricao">Descrição do evento:</label>
+        <input type="text" id="descricao" name="descricao" required>
+      </div>
+      <div class="form-group">
+        <label for="descricao">Local do evento:</label>
+        <input type="text" id="local" name="local" required>
+      </div>
+      <div class="form-group">
+        <label for="valor">Valor:</label>
+        <input type="number" id="valor" name="valor" step="0.01" required>
+      </div>
+      <div class="form-group">
+        <label for="data">Data:</label>
+        <input type="date" id="data" name="data" required>
+      </div>
+      <div class="form-group">
+        <label for="tipo">Tipo:</label>
+        <select id="tipo" name="tipo" required>
+          <option value="">Selecione</option>
+          <option value="Show">Show</option>
+          <option value="Exposições">Exposições</option>
+          <option value="Esportes">Esportes</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="data">Banner do evento:</label>
+        <input type="file" id="imagem" name="imagem" required>
+      </div>
+      <button type="submit">Cadastrar</button>
+    </form>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>

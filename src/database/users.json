@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nome": "danilo",
+      "sobrenome": "Oliveira",
+      "documento": "rg",
+      "email": "danilo2006@gmail.com",
+      "nDocumento": "67897678978",
+      "genero": "masculino",
+      "senha": "123456789",
+      "telefone": "578987897",
+      "nascimento": "2024-06-21"
+    },
+    {
+      "id": 2,
+      "nome": "messi",
+      "sobrenome": "lionel",
+      "documento": "cpf",
+      "email": "marinatoja2006@gmail.com",
+      "nDocumento": "123456788",
+      "genero": "feminino",
+      "senha": "13244567",
+      "telefone": "1234645576",
+      "nascimento": "2024-06-06"
+      
+    }
+  ]
+}

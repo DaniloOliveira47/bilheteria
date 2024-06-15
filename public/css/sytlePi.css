@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+img{
+    width: 300px;
+    height: auto;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #133579;
+    color: white;
+    padding: 30px;
+    height: 100px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.section h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.section p {
+    color: #666;
+}
+
+footer {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 20px 0;
+margin-top: 300px;
+bottom: 0;
+width: 100%;
+position: fixed;
+}
+.fundo{
+background-image: url(jornal,.png);
+}
+.imagem{
+width: 100px;
+}
+.carrinho{
+    width: 30px;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #133579;
+    color: white;
+    padding: 30px;
+    height: 100px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+
+.section {
+    margin-bottom: 40px;
+    width: 30%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section {
+        width: 90%; 
+        text-align: center;
+    }
+
+    .card-container {
+        margin-left: 0; 
+    }
+
+    .descricao {
+        margin-left: 0; 
+    }
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
